@@ -31,3 +31,4 @@ BACKEND/node_modules
 FRONTEND/.env
 FRONTEND/.env.production
 FRONTEND/node_modules
+FRONTEND/build
