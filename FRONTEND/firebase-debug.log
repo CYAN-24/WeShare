@@ -1,0 +1,82 @@
+[debug] [2024-10-23T15:54:12.906Z] ----------------------------------------------------------------------
+[debug] [2024-10-23T15:54:12.910Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2024-10-23T15:54:12.911Z] CLI Version:   13.22.1
+[debug] [2024-10-23T15:54:12.911Z] Platform:      darwin
+[debug] [2024-10-23T15:54:12.911Z] Node Version:  v20.16.0
+[debug] [2024-10-23T15:54:12.911Z] Time:          Wed Oct 23 2024 23:54:12 GMT+0800 (Malaysia Time)
+[debug] [2024-10-23T15:54:12.911Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-23T15:54:12.942Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-23T15:54:12.943Z] > authorizing via signed-in user (c.yuqian1220@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/yuqianchan/Desktop/Computer Science/mernstack-app/FRONTEND
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-10-23T15:54:35.381Z] Checked if tokens are valid: true, expires at: 1729702420037
+[debug] [2024-10-23T15:54:35.381Z] Checked if tokens are valid: true, expires at: 1729702420037
+[debug] [2024-10-23T15:54:35.383Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-10-23T15:54:35.383Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"mernstackapp-2024","name":"mernstackapp"}
+[debug] [2024-10-23T15:54:36.765Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-10-23T15:54:36.765Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-10-23T15:54:36.842Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID mernstackapp-2024. Please try again with a unique project ID.
+[debug] [2024-10-23T15:54:49.373Z] ----------------------------------------------------------------------
+[debug] [2024-10-23T15:54:49.378Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2024-10-23T15:54:49.378Z] CLI Version:   13.22.1
+[debug] [2024-10-23T15:54:49.378Z] Platform:      darwin
+[debug] [2024-10-23T15:54:49.378Z] Node Version:  v20.16.0
+[debug] [2024-10-23T15:54:49.378Z] Time:          Wed Oct 23 2024 23:54:49 GMT+0800 (Malaysia Time)
+[debug] [2024-10-23T15:54:49.379Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-23T15:54:49.387Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-23T15:54:49.388Z] > authorizing via signed-in user (c.yuqian1220@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/yuqianchan/Desktop/Computer Science/mernstack-app/FRONTEND
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-10-23T15:55:11.661Z] Checked if tokens are valid: true, expires at: 1729702420037
+[debug] [2024-10-23T15:55:11.661Z] Checked if tokens are valid: true, expires at: 1729702420037
+[debug] [2024-10-23T15:55:11.663Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-10-23T15:55:11.663Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"mernstack-421150","name":"mernstackapp"}
+[debug] [2024-10-23T15:55:12.968Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-10-23T15:55:12.968Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-10-23T15:55:13.064Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID mernstack-421150. Please try again with a unique project ID.
